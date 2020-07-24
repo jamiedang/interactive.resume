@@ -10,46 +10,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
 		<style>
-#mySidenav a {
-  position: absolute;
-  left: -80px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 80px;
-  text-decoration: none;
-  font-size: 15px;
-  color: white;
-  border-radius: 0 5px 5px 0;
-}
+			#mySidenav a {
+			  position: absolute;
+			  left: -80px;
+			  transition: 0.3s;
+			  padding: 15px;
+			  width: 80px;
+			  text-decoration: none;
+			  font-size: 15px;
+			  color: white;
+			  border-radius: 0 5px 5px 0;
+			}
 
-#mySidenav a:hover {
-  left: 0;
-}
+			#mySidenav a:hover {
+			  left: 0;
+			}
 
-#about {
-  top: 50px;
-  background-color: #000000;
-}
+			#about {
+			  top: 50px;
+			  background-color: #000000;
+			}
 
-#education {
-  top: 110px;
-  background-color: #000000;
-}
+			#education {
+			  top: 110px;
+			  background-color: #000000;
+			}
 
-#experience {
-  top: 170px;
-  background-color: #000000;
-}
+			#experience {
+			  top: 170px;
+			  background-color: #000000;
+			}
 
-#abilities {
-  top: 230px;
-  background-color: #000000;
-}
+			#abilities {
+			  top: 230px;
+			  background-color: #000000;
+			}
 
-#contact {
-  top: 300px;
-  background-color: #000000;
-}
+			#contact {
+			  top: 300px;
+			  background-color: #000000;
+			}
 </style>
 		<meta name="author" content="Jamie Dang Vu My Nga" />	
 		<meta name="description" content="The portfolio of Jamie Bi, a YouTuber who is passionate about creativity projects, a Hanoian born, based in Singapore." />
@@ -107,32 +107,27 @@
 
 
 		</div>
-		
-<div id="mySidenav" class="sidenav">
-  <a href="#" id="about">Profile</a>
-  <a href="#" id="education">Education</a>
-  <a href="#" id="experience">Experience</a>
-  <a href="#" id="abilities">Abilities</a>
-  <a href="#" id="contact">Contact</a>
-</div>
 
-<div style="margin-left:80px;">
-  <h2>Hoverable Sidenav Buttons</h2>
-  <p>Hover over the buttons in the left side navigation to open them.</p>
-</div>
+		<div id="mySidenav" class="sidenav">
+  			<a href="#" id="about">Profile</a>
+  			<a href="#" id="education">Education</a>
+ 			 <a href="#" id="experience">Experience</a>
+ 			 <a href="#" id="abilities">Abilities</a>
+ 			 <a href="#" id="contact">Contact</a>
+		</div>
    
-   <script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("mySidenav").style.top = "50";
-  } else {
-    document.getElementById("mySidenav").style.top = "600px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>
+  		 <script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+  			if (prevScrollpos > currentScrollPos) {
+ 			   document.getElementById("mySidenav").style.top = "50";
+  				} else {
+   				 document.getElementById("mySidenav").style.top = "600px";
+  				}
+ 				 prevScrollpos = currentScrollPos;
+				}
+		</script>
 
 		<div class="background-white">
 			<div id="profile" class="container">
