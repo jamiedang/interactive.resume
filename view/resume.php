@@ -15,7 +15,7 @@
 		<meta name="robots" content="index, follow" />
 		<meta name="revisit-after" content="14 days" />
 			
-		<title>Pascal van Gemert - Web Developer - Interactive Resume</title>
+		<title>Jamie Dang - Into The Unknown Adulthood - Interactive Resume</title>
 		
 		<!-- Bootstrap core CSS -->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
