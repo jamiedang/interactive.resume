@@ -64,6 +64,7 @@
 		</script>
 		<!-- End Inspectlet Embed Code -->
 	</head>
+
 	<body data-spy="scroll" data-target="#navbar-example">
 		<div id="top" class="jumbotron" data-src="/view/images/window_rain_animation.gif" data-position="center right" width="900" height="900">
 			<div class="container">
@@ -101,8 +102,10 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbar-example").style.top = "0";
+    document.getElementById("top").style.top = "0";
   } else {
     document.getElementById("navbar-example").style.top = "150px";
+    document.getElementById("top").style.top = "150px";
   }
 }
 		</script>
