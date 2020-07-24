@@ -13,8 +13,6 @@
 
 		#navbar-example {
   			position: fixed;
-  			top: 500px;
-  			width: 100%;
   			display: block;
   			transition: top 0.3s;
 		}
@@ -102,9 +100,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar-example").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    document.getElementById("navbar-example").style.top = "-50px";
   }
 }
 		</script>
@@ -841,19 +839,6 @@ function scrollFunction() {
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 		</script>
-
-	<script>
-	// When the user scrolls down 20px from the top of the document, slide down the navbar
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-  	  document.getElementById("mySidenav").style.top = "0";
-	  } else {
- 	   document.getElementById("mySidenav").style.top = "50px";
- 	 }
-	}
-	</script>
 
 
 	</body>
