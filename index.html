@@ -18,6 +18,7 @@
   			display: block;
   			transition: top 0.3s;
 		}
+		</style>
 
 		<meta name="author" content="Jamie Dang Vu My Nga" />	
 		<meta name="description" content="The portfolio of Jamie Bi, a YouTuber who is passionate about creativity projects, a Hanoian born, based in Singapore." />
@@ -841,18 +842,19 @@ function scrollFunction() {
 		  })();
 		</script>
 
-		<script>
-			// When the user scrolls down 20px from the top of the document, slide down the navbar
-			window.onscroll = function() {scrollFunction()};
+	<script>
+	// When the user scrolls down 20px from the top of the document, slide down the navbar
+	window.onscroll = function() {scrollFunction()};
 
-			function scrollFunction() {
-  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-  		  document.getElementById("mySidenav").style.top = "0";
-  			} else {
-  		 document.getElementById("mySidenav").style.top = "50px";
- 		 	}
-		}
-</script>
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  	  document.getElementById("mySidenav").style.top = "0";
+	  } else {
+ 	   document.getElementById("mySidenav").style.top = "50px";
+ 	 }
+	}
+	</script>
+
 
 	</body>
 </html>
