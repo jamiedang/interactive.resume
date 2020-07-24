@@ -10,47 +10,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
 		<style>
-			#mySidenav a {
-			  position: absolute;
-			  left: -80px;
-			  transition: 0.3s;
-			  padding: 15px;
-			  width: 80px;
-			  text-decoration: none;
-			  font-size: 15px;
-			  color: white;
-			  border-radius: 0 5px 5px 0;
-			}
 
-			#mySidenav a:hover {
-			  left: 0;
-			}
-
-			#about {
-			  top: 50px;
-			  background-color: #000000;
-			}
-
-			#education {
-			  top: 110px;
-			  background-color: #000000;
-			}
-
-			#experience {
-			  top: 170px;
-			  background-color: #000000;
-			}
-
-			#abilities {
-			  top: 230px;
-			  background-color: #000000;
-			}
-
-			#contact {
-			  top: 300px;
-			  background-color: #000000;
-			}
+		#navbar-example {
+  			position: fixed;
+  			display: block;
+  			transition: top 0.3s;
+		}
 		</style>
+
 		<meta name="author" content="Jamie Dang Vu My Nga" />	
 		<meta name="description" content="The portfolio of Jamie Bi, a YouTuber who is passionate about creativity projects, a Hanoian born, based in Singapore." />
 		<meta name="keywords" content="bilazy, bilazism, Jamie Dang, Jamie Bi, Business Analyst, Business Analytics, Facebook Ads, Marketing Expert, Account Specialist, Accountancy, Finance, creative little thing, creativity, YouTuber, reactioner, vloggerP" />
@@ -107,26 +74,35 @@
 
 
 		</div>
+		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			</div>
 
-		<div id="mySidenav" class="sidenav">
-  			<a href="#" id="about">Profile</a>
-  			<a href="#" id="education">Education</a>
- 			 <a href="#" id="experience">Experience</a>
- 			 <a href="#" id="abilities">Abilities</a>
- 			 <a href="#" id="contact">Contact</a>
-		</div>
-   
-  		 <script>
-			var prevScrollpos = window.pageYOffset;
-			window.onscroll = function() {
-			var currentScrollPos = window.pageYOffset;
-  			if (prevScrollpos > currentScrollPos) {
- 			   document.getElementById("mySidenav").style.top = "50";
-  				} else {
-   				 document.getElementById("mySidenav").style.top = "600px";
-  				}
- 				 prevScrollpos = currentScrollPos;
-				}
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#profile">Profile</a></li>
+					<li><a href="#experiences">Experiences</a></li>
+					<li><a href="#abilities">Abilities</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+
+		<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar-example").style.top = "550";
+  } else {
+    document.getElementById("navbar-example").style.top = "700px";
+  }
+}
 		</script>
 
 		<div class="background-white">
