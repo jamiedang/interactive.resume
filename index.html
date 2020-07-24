@@ -9,6 +9,16 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
+		<style>
+
+		#navbar-example {
+  			position: fixed;
+  			top: 500px;
+  			width: 100%;
+  			display: block;
+  			transition: top 0.3s;
+		}
+
 		<meta name="author" content="Jamie Dang Vu My Nga" />	
 		<meta name="description" content="The portfolio of Jamie Bi, a YouTuber who is passionate about creativity projects, a Hanoian born, based in Singapore." />
 		<meta name="keywords" content="bilazy, bilazism, Jamie Dang, Jamie Bi, Business Analyst, Business Analytics, Facebook Ads, Marketing Expert, Account Specialist, Accountancy, Finance, creative little thing, creativity, YouTuber, reactioner, vloggerP" />
@@ -16,9 +26,6 @@
 		<meta name="revisit-after" content="14 days" />
 			
 		<title>Jamie - Into the Unknown Adulthood - Who Am I, Really</title>
-
-		<link rel="shortcut icon" href="/images/bee_pucca.ico">
-		<link rel="icon" type="image/png" href="/images/bee_pucca.png">	
 
 		<!-- Bootstrap core CSS -->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
@@ -32,8 +39,8 @@
 		<link href="/view/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="/view/style.css" rel="stylesheet" />
 		
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/images/bee_pucca.pn" type="image/x-icon" />
+		<link rel="icon" href="/images/bee_pucca.pn" type="image/x-icon" />
 		
 		<!--[if lt IE 9]>
 			<script src="/view/js/html5shiv.js"></script>
@@ -833,6 +840,19 @@ function scrollFunction() {
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 		</script>
+
+		<script>
+			// When the user scrolls down 20px from the top of the document, slide down the navbar
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  		  document.getElementById("mySidenav").style.top = "0";
+  			} else {
+  		 document.getElementById("mySidenav").style.top = "50px";
+ 		 	}
+		}
+</script>
 
 	</body>
 </html>
