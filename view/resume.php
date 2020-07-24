@@ -9,11 +9,11 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
-		<meta name="author" content="Pascal van Gemert" />	
-		<meta name="description" content="I'm Pascal van Gemert, a ninja webdeveloper / creative programmer with good knowledge of front-end technics." />
-		<meta name="keywords" content="Pascal van Gemert, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Whoopaa, HRMatches, Sanitairwinkel, Algorithms, PHP, MySQL, OOP" />
-		<meta name="robots" content="index, follow" />
-		<meta name="revisit-after" content="14 days" />
+        <meta name="author" content="Jamie Dang Vu My Nga" />   
+        <meta name="description" content="The portfolio of Jamie Bi - The Passionate Individual" />
+        <meta name="keywords" content="bilazy, bilazism, Jamie Dang, Jamie Bi, Business Analyst, Business Analytics, Facebook Ads, Marketing Expert, Account Specialist, Accountancy, Finance, creative little thing, creativity, YouTuber, reactioner, vlogger" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="14 days" />
 			
 		<title>Jamie Dang - Into The Unknown Adulthood - Interactive Resume</title>
 		
@@ -46,8 +46,6 @@
 		<!-- End Inspectlet Embed Code -->
 	</head>
 	<body data-spy="scroll" data-target="#navbar-example">	 
-		
-		<div class="opl"><a href="http://onepagelove.com/pascal-van-gemert" target="_blank">pascalvangemert.nl featured on One Page Love</a></div>
 		
 		<?php 
 			
